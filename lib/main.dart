@@ -43,7 +43,25 @@ class BallPage extends StatelessWidget {
         ],
       ),
       backgroundColor: Colors.blue,
-      body: Container(),
+      body: Ball(),
+    );
+  }
+}
+
+class Ball extends StatefulWidget {
+  const Ball({Key? key}) : super(key: key);
+
+  @override
+  _BallState createState() => _BallState();
+}
+
+class _BallState extends State<Ball> {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      alignment: Alignment.center,
+      margin: EdgeInsets.all(30.0),
+      child: Image.asset('images/ball1.png'),
     );
   }
 }
