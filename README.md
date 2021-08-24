@@ -1,16 +1,4 @@
-# magic_8_ball_flutter
+# dicee_flutter
+- Aplicativo simples para aplicar os conceitos de estado e de layout ensinados no curso [The Complete 2021 Flutter Development Bootcamp with Dart](https://www.udemy.com/course/flutter-bootcamp-with-dart/).
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![exemplo](https://media1.giphy.com/media/l7VRW9Se3CqDganFOi/giphy.gif?cid=790b7611404974c99a97beb17ae31956ae2180901f52a3ae&rid=giphy.gif&ct=g)
