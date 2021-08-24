@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -56,12 +58,23 @@ class Ball extends StatefulWidget {
 }
 
 class _BallState extends State<Ball> {
+  var _ballNumber = 1;
+
+  void _handleBallClick() {
+    setState(() {
+      _ballNumber = Random().nextInt(5) + 1;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Container(
       alignment: Alignment.center,
-      margin: EdgeInsets.all(30.0),
-      child: Image.asset('images/ball1.png'),
+      margin: EdgeInsets.symmetric(horizontal: 30.0, vertical: 10.0),
+      child: MaterialButton(
+        child: Image.asset('images/ball$_ballNumber.png'),
+        onPressed: _handleBallClick,
+      ),
     );
   }
 }
